@@ -1,7 +1,11 @@
+// eslint-disable-next-line no-undef
+const config = require('../config');
+
+
 describe('My locators application', () => {
     it('should have locators', async () => {
         //replace the URL with your own URL from the server
-        await browser.url(`https://cnt-d8a700bd-2a47-4103-96fd-87420112250c.containerhub.tripleten-services.com/`);
+        await browser.url(`${config.API_URL}`);
                 // our code will be here
                 await expect($('.dst-picker')).toBeExisting();
         await expect($('#root')).toBeExisting();
