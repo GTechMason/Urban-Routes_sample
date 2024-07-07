@@ -1,7 +1,7 @@
 describe('My locators application', () => {
     it('should have locators', async () => {
         //replace the URL with your own URL from the server
-        await browser.url(`https://cnt-0cfae466-ade5-43cf-86b1-fda15a2db681.containerhub.tripleten-services.com/`);
+        await browser.url(`https://cnt-d8a700bd-2a47-4103-96fd-87420112250c.containerhub.tripleten-services.com/`);
                 // our code will be here
                 await expect($('.dst-picker')).toBeExisting();
         await expect($('#root')).toBeExisting();
@@ -18,4 +18,3 @@ describe('My locators application', () => {
         await expect($('//label[starts-with(text(), "F")]')).toBeExisting();
     })
 })
-``
