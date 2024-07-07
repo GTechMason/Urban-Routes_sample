@@ -7,7 +7,7 @@ const config = require('../config');
 describe('My dropdown menu application example', () => {
     it('should have option 1', async () => {
         //replace the URL with your own URL from the server
-        await browser.url(``${config.API_URL}`);
+        await browser.url(`${config.API_URL}`);
                 
 const exampleDropdown = $('#exampleDropdown');
 exampleDropdown.selectByVisibleText('Option 1');
