@@ -10,6 +10,7 @@
   "license": "ISC",
   "description": "",
   "devDependencies": {
+    "@babel/register": "^7.24.6",
     "@wdio/cli": "^8.39.1",
     "@wdio/devtools-service": "^8.39.1",
     "@wdio/firefox-profile-service": "^8.39.0",
@@ -17,6 +18,8 @@
     "@wdio/mocha-framework": "^8.39.0",
     "@wdio/spec-reporter": "^8.39.0",
     "@wdio/visual-service": "^5.1.0",
+    "geckodriver": "^4.4.1",
+    "wdio-geckodriver-service": "^5.0.2",
     "wdio-wait-for": "^3.0.11"
   }
 }
