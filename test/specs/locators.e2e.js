@@ -1,5 +1,6 @@
 // eslint-disable-next-line no-undef
-const config = require('../config');
+const config = require('../../config');
+const page = require('../../page');
 
 
 describe('My locators application', () => {
