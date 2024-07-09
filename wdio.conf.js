@@ -87,7 +87,7 @@ exports.config = {
     // with `/`, the base url gets prepended, not including the path portion of your baseUrl.
     // If your `url` parameter starts without a scheme or `/` (like `some/path`), the base url
     // gets prepended directly.
-    baseUrl: 'https://cnt-86e30788-537a-42f1-971d-692d4eccc7bf.containerhub.tripleten-services.com',
+    baseUrl: 'https://cnt-8b5ffe13-3c08-4da0-a07a-c6924ea86f74.containerhub.tripleten-services.com',
     //
     // Default timeout for all waitFor* commands.
     waitforTimeout: 10000,
@@ -103,7 +103,7 @@ exports.config = {
     // Services take over a specific job you don't want to take care of. They enhance
     // your test setup with almost no effort. Unlike plugins, they don't add new
     // commands. Instead, they hook themselves up into the test process.
-    services: ['visual', 'firefox-profile', 'devTools', 'geckodriver'],
+    services: ['visual', 'firefox-profile', 'devTools', 'geckodriver', 'intercept'],
 
     // Framework you want to run your specs with.
     // The following are supported: Mocha, Jasmine, and Cucumber
@@ -150,7 +150,7 @@ exports.config = {
      * @param {Array.<Object>} capabilities list of capabilities details
      */
     // onPrepare: function (config, capabilities) {
-    // },
+    // },`
     /**
      * Gets executed before a worker process is spawned and can be used to initialize specific service
      * for that worker as well as modify runtime environments in an async fashion.
