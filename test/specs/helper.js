@@ -4,6 +4,7 @@ module.exports = {
         return `${countryCode}${number}`
     },
     getElementByText: async function(obj) {
-        return await $(`//div[contains(text(), "${obj.toString()}")]`);
+        // WebdriverIO function to get an element 
+        return await $(`div=${obj.toString()}`);
     }
 };

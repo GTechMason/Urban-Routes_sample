@@ -4,11 +4,11 @@ module.exports = {
     toField: '#to',
     phoneNumberField: '#phone',
     codeField: '#code',
-    // Buttons
-    callATaxiButton: '//button[contains(text(), "Call a taxi")]',
-    phoneNumberButton: '//div[contains(text(), "Phone number")]',
-    nextButton: '//button[contains(text(), "Next")]',
-    confirmButton: '//button[contains(text(), "Confirm")]',
+    // Buttons - WebdriverIO versions
+    callATaxiButton: 'button=Call a taxi',
+    phoneNumberButton: 'div=Phone number',
+    nextButton: 'button=Next',
+    confirmButton: 'button=Confirm',
     // Modals
     phoneNumberModal: '.modal',
     // Functions
